@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Đố cậu nhắm mắt mà gõ được đúng 50 chữ B vào đây á, nè nè hổng được chơi ăn gian nhe ',
+        title: 'Ui Bảo biết mà, bây giờ Bảo đố cậu nhắm mắt mà gõ được đúng 50 chữ B vào đây á, nè nè hổng được chơi ăn gian nhe ',
         html: true,
         width: 900,
         padding: '3em',

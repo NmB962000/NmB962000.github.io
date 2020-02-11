@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Bảo nhớ cậu lắm luôn á, Bảo hổng quên được cậu :<<<<<<< ";
+    var text = " Bảo nhớ cậu lắm luôn nhaaaaaa:<<<<<<< ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Ui Bảo biết mà, bây giờ Bảo đố cậu nhắm mắt mà gõ được đúng 50 chữ B vào đây á, nè nè hổng được chơi ăn gian nhe ',
+        title: 'Ui Bảo biết mà, bây giờ Bảo đố cậu nhắm mắt mà gõ được đúng 30 chữ B vào đây á, nè nè hổng được chơi ăn gian nhe ',
         html: true,
         width: 900,
         padding: '3em',
@@ -114,15 +114,15 @@ $('#yes').click(function() {
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Cậu chịu nhaaaa'
+        confirmButtonText: 'Thấy Bảo giỏi hông'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ hạnh phúc cực luôn nha ^^ Yêu cậu 300.000',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Cảm ơn cậu đã cùng Bảo tới đây nhaa, trời đông đang lạnh, cậu nhớ giữ ấm không kẻo bệnh nha',
+                text: "Inbox Bảo đi cậu ơiiiiiiii",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'http://fb.com';
